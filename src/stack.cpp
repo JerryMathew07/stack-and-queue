@@ -13,7 +13,7 @@ void ArrayStack::push(int value){
     data_[size_++] = value;
 }
 
-int ArrayStack::pop() {
+void ArrayStack::pop() {
     if (empty())
         throw std::underflow_error("ArrayStack::pop - stack is empty");
     --size_;

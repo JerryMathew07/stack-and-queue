@@ -16,7 +16,7 @@ static int failed = 0;
         bool caught = false; \
            try { expr; } catch (const ExcType&) { caught = true; } \
            if (caught) { std::cout << "PASS throws " #ExcType "\n"; ++passed; } \
-           else { std::cout << "FAIL expected " #ExcType "\n"; ++failed; } \ 
+           else { std::cout << "FAIL expected " #ExcType "\n"; ++failed; } \
     } while (0)
 
 void test_array_queue() {

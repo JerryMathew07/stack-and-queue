@@ -11,7 +11,7 @@ class ArrayStack {
         ~ArrayStack();
 
         void push(int value);
-        int pop();
+        void pop();
         int top() const;
         bool empty() const;
         bool full() const;
