@@ -2,22 +2,6 @@
 
 Array-based and linked-list-based implementations of Stack and Queue in C++17.
 
-## Structure
-
-```
-stack-and-queue/
-├── include/
-│   ├── stack.h
-│   └── queue.h
-├── src/
-│   ├── stack.cpp
-│   └── queue.cpp
-├── tests/
-│   ├── test_stack.cpp
-│   └── test_queue.cpp
-└── CMakeLists.txt
-```
-
 ## Implementations
 
 ### Stack
